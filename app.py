@@ -63,7 +63,7 @@ st.markdown("""
 
 @st.cache_data
 def fetch_poster(movie_id):
-    url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=5100ee12133c96cf304091aed1e1b8a0&language=en-US"
+    url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=cb3bacb4aa4207f0b6f097d9af81dd58&language=en-US"
     try:
         response = requests.get(url)
         if response.status_code != 200:
