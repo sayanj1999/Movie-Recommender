@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+datasets/
+datasets.zip
+*.ipynb
+kaggle.json
+TMDB login.txt
+export_models.py
+compress.py
